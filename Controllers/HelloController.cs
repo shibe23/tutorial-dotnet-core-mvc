@@ -7,5 +7,13 @@ namespace tutorial_dotnet_core_mvc.Controllers
         {
             return Content("Hello!!");
         }
+        public IActionResult Greet()
+        {
+            // ビュー変数を準備
+            ViewBag.Message = "Hello Hello!";
+            // ViewData["Message"] = "Hello Hello!";
+            // テンプレートを呼び出す
+            return View();
+        }
     }
 }
