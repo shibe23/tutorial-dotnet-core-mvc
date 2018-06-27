@@ -1,4 +1,4 @@
-namespace tutorial_dotnet_core_mvc.Controllers
+namespace tutorial_dotnet_core_mvc.Models
 {
   public class Book
   {
