@@ -31,3 +31,4 @@
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/tutorial-dotnet-core-mvc.pdb
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/tutorial-dotnet-core-mvc.csproj.CopyComplete
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Hello/Greet.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Hello/List.g.cshtml.cs
