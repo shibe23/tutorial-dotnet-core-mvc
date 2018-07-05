@@ -32,3 +32,8 @@
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/tutorial-dotnet-core-mvc.csproj.CopyComplete
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Hello/Greet.g.cshtml.cs
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Hello/List.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Create.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Delete.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Details.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Edit.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Index.g.cshtml.cs
