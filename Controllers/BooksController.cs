@@ -45,6 +45,9 @@ namespace tutorial_dotnet_core_mvc.Controllers
         // GET: Books/Create
         public IActionResult Create()
         {
+            // テーブルから重複のない出版社名を取得
+            var list = this._context.Book.Select(b => new {Publisher = b.Publisher}).Distinct();
+            ViewBag.Opts = new SelectList(list, "Publicher", "Publisher");
             return View();
         }
 
