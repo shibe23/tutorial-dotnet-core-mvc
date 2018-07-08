@@ -47,7 +47,7 @@ namespace tutorial_dotnet_core_mvc.Controllers
         {
             // テーブルから重複のない出版社名を取得
             var list = this._context.Book.Select(b => new {Publisher = b.Publisher}).Distinct();
-            ViewBag.Opts = new SelectList(list, "Publicher", "Publisher");
+            ViewBag.Opts = new SelectList(list, "Publisher", "Publisher");
             return View();
         }
 
