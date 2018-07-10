@@ -37,3 +37,4 @@
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Details.g.cshtml.cs
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Edit.g.cshtml.cs
 /home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Books/Index.g.cshtml.cs
+/home/wyeth/_dev/tutorial-dotnet-core-mvc/obj/Debug/netcoreapp2.1/Razor/Views/Shared/DisplayTemplates/Currency.g.cshtml.cs
