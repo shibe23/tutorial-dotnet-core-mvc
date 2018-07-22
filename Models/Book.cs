@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 namespace tutorial_dotnet_core_mvc.Models
 {
-  public class Book
+  public class Book: IValidatableObject
   {
     public int Id {get; set;}
     [DisplayName("書名")]
@@ -18,5 +18,13 @@ namespace tutorial_dotnet_core_mvc.Models
     public string Publisher {get; set;}
     [DisplayName("配布サンプル")]
     public bool Sample {get; set;}
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+      if(this.Publisher == "フリー文庫" && this.Price > 0)
+      {
+        yield return new ValidationResult("フリー文庫の価格は0円でなければいけません");
+      }
+    }
   }
 }
