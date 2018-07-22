@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 namespace tutorial_dotnet_core_mvc.Models
 {
-  public class Book :IValidatableObject
+  public class Book
   {
     public int Id {get; set;}
     [DisplayName("書名")]
