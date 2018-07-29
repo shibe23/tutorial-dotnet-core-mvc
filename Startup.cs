@@ -60,7 +60,18 @@ namespace tutorial_dotnet_core_mvc
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}"
+                );
+
+                routes.MapRoute(
+                    name: "ArticleRoute",
+                    template: "Articles/{id}",
+                    defaults: new
+                    {
+                        controller = "Home",
+                        action = "About"
+                    }
+                );
             });
         }
     }

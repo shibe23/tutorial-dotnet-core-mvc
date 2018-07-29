@@ -23,7 +23,7 @@ namespace tutorial_dotnet_core_mvc.Models
     {
       if(this.Publisher == "フリー文庫" && this.Price > 0)
       {
-        yield return new ValidationResult("フリー文庫の価格は0円でなければいけません");
+        yield return new ValidationResult("フリー文庫の価格は0円でなければいけません", new[] { "Price" });
       }
     }
   }
