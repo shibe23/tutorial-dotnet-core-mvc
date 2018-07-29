@@ -72,6 +72,26 @@ namespace tutorial_dotnet_core_mvc
                         action = "About"
                     }
                 );
+
+                routes.MapRoute(
+                    name: "ArticleForumRoute",
+                    template: "Articles/{forum}_{category}/{author}-{id}",
+                    defaults: new
+                    {
+                        controller = "Home",
+                        action = "About"
+                    }
+                );
+
+                routes.MapRoute(
+                    name: "SearchRoute",
+                    template: "Search/{*keywords}",
+                    defaults: new
+                    {
+                        controller = "Home",
+                        action = "About"
+                    }
+                );
             });
         }
     }
