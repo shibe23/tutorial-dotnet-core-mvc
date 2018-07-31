@@ -70,6 +70,10 @@ namespace tutorial_dotnet_core_mvc
                     {
                         controller = "Home",
                         action = "About"
+                    },
+                    constraints: new
+                    {
+                        id = @"\d{1, 3}"
                     }
                 );
 
