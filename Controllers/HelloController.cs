@@ -11,6 +11,7 @@ namespace tutorial_dotnet_core_mvc.Controllers
             this._context = context;
         }
 
+        [Route("Hoge/Foo")]
         public IActionResult Index()
         {
             return Content("Hello!!");
