@@ -20,7 +20,7 @@ namespace tutorial_dotnet_core_mvc.Models
     public bool Sample {get; set;}
 
     [Timestamp]
-    public byte[] Rowversion {get; set;}
+    public byte[] RowVersion {get; set;}
 
     public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
